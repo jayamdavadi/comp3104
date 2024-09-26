@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "stable"
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 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
+  local_dir: build
+  on:
+    branch: main
